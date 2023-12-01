@@ -1,13 +1,21 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ViewTask.Services;
-using System.Xml.Linq;
 using ViewTask.Models;
+using System.Collections;
 
 namespace ViewTask.Controllers
 {
 	public class TasksController : Controller
 	{
-		readonly List<Product> products = new()
+        readonly ITimeService _timeService;
+        public TasksController(ITimeService timeService, IEnumerable<Product> products)
+        {
+            _timeService = timeService;
+            products = products.ToList();   
+            //this.products = products;
+        }
+
+        readonly List<Product> products = new()
 		{
 			new Product {Name="Bread",Price=10 },
 			new Product {Name="Milk",Price=10 },
@@ -19,21 +27,11 @@ namespace ViewTask.Controllers
 			new Product {Name="Candy",Price=10 }
 		};
 
-		public TasksController(IEnumerable<Product> products)
-		{
-			this.products = (List<Product>)products;
-
-		}
-        public TasksController()
-        {
-        }
-
-        readonly ITimeService _timeService;
+		//public TasksController(IEnumerable<Product> products)
+		//{
+		//	this.products = (List<Product>)products;
+		//}
         
-        public TasksController(ITimeService timeService)
-        {
-            _timeService = timeService;
-        }
         public IActionResult Index()
         {
             return View();
