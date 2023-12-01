@@ -1,6 +1,35 @@
-﻿﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
-Greeting
+﻿@model string[]
+
+<div>
+    <h1>Greetings</h1>
+    <p1>The value of myMessage is: @ViewData["Message"]</p1><br><br>
+    <p1>The greeting is: @ViewData["Greetings"]</p1><br><br>
+    <p1>Here in Ukraine: @ViewData["DayInUkraine"]</p1><br><br>
+    <p1>We wish you: @ViewData["Wishes"]</p1><br><br>
+    <p1>Today is : @ViewData["Day"]</p1><br><br>
+</div>
+
+<table class="table table-bordered table-striped" style="width:10%">
+    <tbody>
+        <tr>
+            <th class="text-center">Name</th>
+            <th class="text-center">Value</th>
+        </tr>
+        <tr>
+            <td class="text-center">Day</td>
+            <td class="text-center">@Model[0]</td>
+        </tr>
+        <tr>
+            <td class="text-center">Hour</td>
+            <td class="text-center">@Model[1]</td>
+        </tr>
+        <tr>
+            <td class="text-center">Minute</td>
+            <td class="text-center">@Model[2]</td>
+        </tr>
+        <tr>
+            <td class="text-center">Seconds</td>
+            <td class="text-center">@Model[3]</td>
+        </tr>
+    </tbody>
+</table>

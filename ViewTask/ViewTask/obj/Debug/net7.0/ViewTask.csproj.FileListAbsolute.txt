@@ -29,3 +29,34 @@ C:\Users\38096\Source\Repos\sprint13-om-02_23-team666\ViewTask\ViewTask\obj\Debu
 C:\Users\38096\Source\Repos\sprint13-om-02_23-team666\ViewTask\ViewTask\obj\Debug\net7.0\ViewTask.pdb
 C:\Users\38096\Source\Repos\sprint13-om-02_23-team666\ViewTask\ViewTask\obj\Debug\net7.0\ViewTask.genruntimeconfig.cache
 C:\Users\38096\Source\Repos\sprint13-om-02_23-team666\ViewTask\ViewTask\obj\Debug\net7.0\ref\ViewTask.dll
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\bin\Debug\net7.0\appsettings.Development.json
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\bin\Debug\net7.0\appsettings.json
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\bin\Debug\net7.0\ViewTask.staticwebassets.runtime.json
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\bin\Debug\net7.0\ViewTask.exe
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\bin\Debug\net7.0\ViewTask.deps.json
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\bin\Debug\net7.0\ViewTask.runtimeconfig.json
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\bin\Debug\net7.0\ViewTask.dll
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\bin\Debug\net7.0\ViewTask.pdb
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\ViewTask.csproj.AssemblyReference.cache
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\ViewTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\ViewTask.AssemblyInfoInputs.cache
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\ViewTask.AssemblyInfo.cs
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\ViewTask.csproj.CoreCompileInputs.cache
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\ViewTask.MvcApplicationPartsAssemblyInfo.cache
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\ViewTask.RazorAssemblyInfo.cache
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\ViewTask.RazorAssemblyInfo.cs
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\staticwebassets\msbuild.ViewTask.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\staticwebassets\msbuild.build.ViewTask.props
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ViewTask.props
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ViewTask.props
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\staticwebassets.build.json
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\staticwebassets.development.json
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\scopedcss\bundle\ViewTask.styles.css
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\scopedcss\projectbundle\ViewTask.bundle.scp.css
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\ViewTask.dll
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\refint\ViewTask.dll
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\ViewTask.pdb
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\ViewTask.genruntimeconfig.cache
+D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\obj\Debug\net7.0\ref\ViewTask.dll
