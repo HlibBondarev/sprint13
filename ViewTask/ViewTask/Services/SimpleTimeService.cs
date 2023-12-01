@@ -6,5 +6,10 @@
         {
             return DateTime.Now;
         }
+
+        public string GetTime()
+        {
+            return System.DateTime.Now.ToString("dd:HH:mm:ss");
+        }
     }
 }

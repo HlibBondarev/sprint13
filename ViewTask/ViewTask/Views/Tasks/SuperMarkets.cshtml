@@ -1,6 +1,9 @@
-﻿﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿<h1>Our Supermarkets</h1>
+<p1>There are @((ViewBag.Markets as List<SuperMarket>).Count) markets:</p1>
+<br />
+
+@foreach (var market in ViewBag.Markets)
+{
+    <p1>@market.Name</p1>
+    <br />
 }
-Super Markets
