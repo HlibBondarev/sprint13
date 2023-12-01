@@ -12,7 +12,6 @@ namespace ViewTask.Controllers
         {
             _timeService = timeService;
             products = products.ToList();   
-            //this.products = products;
         }
 
         readonly List<Product> products = new()
@@ -52,10 +51,11 @@ namespace ViewTask.Controllers
         {
             return View();
         }
+    
         public IActionResult ShoppingList()
         {
-
-            return View();
+            var productModel = new ProductViewModel(ProductService.GetProducts(products)); 
+            return View(productModel);
         }
         public IActionResult ShopTime()
         {

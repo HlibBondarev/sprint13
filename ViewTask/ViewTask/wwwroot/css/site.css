@@ -20,3 +20,17 @@ html {
 body {
   margin-bottom: 60px;
 }
+.grid-table {
+    border-collapse: collapse;
+    /*width: 100%;*/
+}
+
+.grid-table th, .grid-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.grid-table th {
+    background-color: #f2f2f2;
+}

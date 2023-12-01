@@ -9,7 +9,7 @@ namespace ViewTask.Services
             Dictionary<string,int> keyValuePairs = new Dictionary<string,int>();
             for (int i = 0; i < _products.Count; i++)
             {
-                keyValuePairs.Add(_products[i].Name, new Random().Next()*20);
+                keyValuePairs.Add(_products[i].Name, new Random().Next(1, 11));
             }
             return keyValuePairs;
         }
