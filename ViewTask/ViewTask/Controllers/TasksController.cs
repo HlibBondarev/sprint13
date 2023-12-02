@@ -86,17 +86,6 @@ namespace ViewTask.Controllers
 		}
 		public IActionResult ProductInfo()
 		{
-			//List<Product> products = new List<Product>()
-			//{
-			//	new Product() {Name = "Bread", Price = 10},
-			//	new Product() {Name = "Milk", Price = 11},
-			//	new Product() {Name = "Cheese", Price = 140},
-			//	new Product() {Name = "Sausage", Price = 110},
-			//	new Product() {Name = "Potato", Price = 7},
-			//	new Product() {Name = "Banana", Price = 23},
-			//	new Product() {Name = "Tomato", Price = 25},
-			//	new Product() {Name = "Candy", Price = 75}
-			//};
 			return View(_products);
 		}
 
@@ -111,7 +100,6 @@ namespace ViewTask.Controllers
 			return string.Format($"Your poducts will be shipped at: {Address}. Bon Appetite, {Fullname}!");
 		}
 
-
 		public IActionResult ShoppingList()
 		{
 			var productModel = new ProductViewModel(ProductService.GetProducts(_products));
@@ -125,14 +113,6 @@ namespace ViewTask.Controllers
 
 		public IActionResult SuperMarkets()
 		{
-			//List<SuperMarket> markets = new List<SuperMarket>()
-			//{
-			//    new SuperMarket() {Name = "WellMart"},
-			//    new SuperMarket() {Name = "Silpo" },
-			//    new SuperMarket() {Name = "ATB" },
-			//    new SuperMarket() {Name = "Furshet" },
-			//    new SuperMarket() {Name = "Metro"}
-			//};
 			ViewBag.Markets = _supermarkets;
 			return View();
 		}
