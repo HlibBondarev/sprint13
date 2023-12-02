@@ -2,7 +2,8 @@
 {
 	public class ShoppingCartViewModel
 	{
-		public IEnumerable<string>? SupermarketsList { get; set; }
+		public IEnumerable<SuperMarket>? SupermarketsList { get; set; }
 		public IEnumerable<string>? ShoppingList { get; set; }
+		public string? Supermarket;
 	}
 }
