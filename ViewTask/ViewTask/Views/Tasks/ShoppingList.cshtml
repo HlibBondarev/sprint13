@@ -1,5 +1,4 @@
-﻿@inject ViewTask.Services.ITimeService TimeService
-@model ViewTask.Models.ProductViewModel
+﻿@model ViewTask.Models.ProductViewModel
 <body>
     <h1 style="padding: 0 0 20px 0">Our shopping list</h1>
 
@@ -19,6 +18,5 @@
     </table>
 
     <h3 style="padding: 30px 0 0 0">It's time to shopping!</h3>
-    <label> @TimeService.GetTimeForTomorrow().ToShortDateString()</label> 
-    <label id="currentTime"> </label>
+    @Html.Partial("TimeToBuy")
 </body>

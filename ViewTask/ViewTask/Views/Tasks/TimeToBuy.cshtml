@@ -1,0 +1,5 @@
+﻿@inject ViewTask.Services.ITimeService TimeService
+
+
+<label> @TimeService.GetTimeForTomorrow().ToShortDateString()</label>
+<label id="currentTime"> </label>
