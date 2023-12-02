@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ViewTask.Services;
 using ViewTask.Models;
-//using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ViewTask.Controllers
 {
@@ -11,13 +10,13 @@ namespace ViewTask.Controllers
 		readonly List<Product> _products = new()
 		{
 			new Product {Name="Bread",Price=10 },
-			new Product {Name="Milk",Price=10 },
-			new Product {Name="Chease",Price=10 },
-			new Product {Name="Sausage",Price=10 },
-			new Product {Name="Potato",Price=10 },
-			new Product {Name="Banano",Price=10 },
-			new Product {Name="Tomato",Price=10 },
-			new Product {Name="Candy",Price=10 }
+			new Product {Name="Milk",Price=11 },
+			new Product {Name="Chease",Price=140 },
+			new Product {Name="Sausage",Price=110 },
+			new Product {Name="Potato",Price=7 },
+			new Product {Name="Banano",Price=23 },
+			new Product {Name="Tomato",Price=25 },
+			new Product {Name="Candy",Price=75 }
 		};
 		readonly List<SuperMarket> _supermarkets = new List<SuperMarket>()
 			{
@@ -87,25 +86,24 @@ namespace ViewTask.Controllers
 		}
 		public IActionResult ProductInfo()
 		{
-			List<Product> products = new List<Product>()
-			{
-				new Product() {Name = "Bread", Price = 10},
-				new Product() {Name = "Milk", Price = 11},
-				new Product() {Name = "Cheese", Price = 140},
-				new Product() {Name = "Sausage", Price = 110},
-				new Product() {Name = "Potato", Price = 7},
-				new Product() {Name = "Banana", Price = 23},
-				new Product() {Name = "Tomato", Price = 25},
-				new Product() {Name = "Candy", Price = 75}
-			};
-
-			return View(products);
+			//List<Product> products = new List<Product>()
+			//{
+			//	new Product() {Name = "Bread", Price = 10},
+			//	new Product() {Name = "Milk", Price = 11},
+			//	new Product() {Name = "Cheese", Price = 140},
+			//	new Product() {Name = "Sausage", Price = 110},
+			//	new Product() {Name = "Potato", Price = 7},
+			//	new Product() {Name = "Banana", Price = 23},
+			//	new Product() {Name = "Tomato", Price = 25},
+			//	new Product() {Name = "Candy", Price = 75}
+			//};
+			return View(_products);
 		}
 
 		[HttpGet]
 		public IActionResult ShoppingCart()
 		{
-			return View(new ShoppingCartViewModel { SupermarketsList = _supermarkets, ShoppingList = ProductService.GetProducts(_products).Keys });
+			return View(new ShoppingCartViewModel { SupermarketsList = _supermarkets, ShoppingList = ProductService.GetProducts(_products).Keys.ToList() });
 		}
 		[HttpPost]
 		public string ShoppingCart(string Fullname, string Address)
