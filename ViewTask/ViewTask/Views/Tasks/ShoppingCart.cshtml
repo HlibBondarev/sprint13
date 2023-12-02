@@ -1,6 +1,47 @@
-﻿﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@model ShoppingCartViewModel
+@functions {
+	public List<string> Dates()
+	{
+		List<string> list = new List<string>();
+		DateTime date = DateTime.Now.Hour < 12 ? DateTime.Now : DateTime.Now.AddDays(1);
+		for (int i = 0; i < 3; i++)
+		{
+			list.Add(string.Format("{0}/{1}/{2} 12:00:00 AM", date.AddDays(i).Month, date.AddDays(i).Day, date.AddDays(i).Year));
+		}
+		return list;
+	}
 }
-Shopping Cart
+
+<h1 style="padding: 0 0 20px 0">Your shopping cart</h1>
+
+@using (Html.BeginForm("ShoppingCart", "Tasks", FormMethod.Post))
+{
+	<p>
+		@Html.Label("Fullname", "Input your fullname")<br />
+		@Html.TextBox("Fullname")
+	</p>
+	<p>
+		@Html.Label("Address", "Input your address")<br />
+		@Html.TextBox("Address")
+	</p>
+
+	<p>
+		@Html.DropDownListFor(m=> m.Supermarket, new SelectList(Model.SupermarketsList, "Name", "Name"))
+	</p>
+	<p>
+		@Html.RadioButton("shipDate", @Dates()[0], true)
+		<span>@Dates()[0]</span> <br />
+		@Html.RadioButton("shipDate", @Dates()[1])
+		<span>@Dates()[1]</span> <br />
+		@Html.RadioButton("shipDate", @Dates()[2])
+		<span>@Dates()[2]</span>
+	</p>
+	<p>
+		@Html.ListBoxFor(m=> m.ShoppingList, new MultiSelectList(Model.ShoppingList))
+	</p>
+
+	<p>
+		<input type="submit" value="Send" />
+	</p>
+}
+
