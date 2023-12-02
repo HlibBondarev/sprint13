@@ -3,5 +3,6 @@
     public interface ITimeService
     {
         DateTime GetTimeForTomorrow();
+        string GetTime();
     }
 }

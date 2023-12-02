@@ -9,61 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ViewTask
 build_property.RootNamespace = ViewTask
-build_property.ProjectDir = C:\Users\38096\source\repos\sprint13-om-02_23-team666\ViewTask\ViewTask\
+build_property.ProjectDir = D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\38096\source\repos\sprint13-om-02_23-team666\ViewTask\ViewTask
+build_property.MSBuildProjectDirectory = D:\Тарас\SoftServe Practical C#\Sprint 13. Views\MyBranch\ViewTask\ViewTask
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/38096/source/repos/sprint13-om-02_23-team666/ViewTask/ViewTask/Views/Home/Index.cshtml]
+[D:/Тарас/SoftServe Practical C\#/Sprint 13. Views/MyBranch/ViewTask/ViewTask/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/38096/source/repos/sprint13-om-02_23-team666/ViewTask/ViewTask/Views/Home/Privacy.cshtml]
+[D:/Тарас/SoftServe Practical C\#/Sprint 13. Views/MyBranch/ViewTask/ViewTask/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/38096/source/repos/sprint13-om-02_23-team666/ViewTask/ViewTask/Views/Shared/Error.cshtml]
+[D:/Тарас/SoftServe Practical C\#/Sprint 13. Views/MyBranch/ViewTask/ViewTask/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/38096/source/repos/sprint13-om-02_23-team666/ViewTask/ViewTask/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Тарас/SoftServe Practical C\#/Sprint 13. Views/MyBranch/ViewTask/ViewTask/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/38096/source/repos/sprint13-om-02_23-team666/ViewTask/ViewTask/Views/Tasks/Greetings.cshtml]
+[D:/Тарас/SoftServe Practical C\#/Sprint 13. Views/MyBranch/ViewTask/ViewTask/Views/Tasks/Greetings.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza3NcR3JlZXRpbmdzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/38096/source/repos/sprint13-om-02_23-team666/ViewTask/ViewTask/Views/Tasks/ProductInfo.cshtml]
+[D:/Тарас/SoftServe Practical C\#/Sprint 13. Views/MyBranch/ViewTask/ViewTask/Views/Tasks/ProductInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza3NcUHJvZHVjdEluZm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/38096/source/repos/sprint13-om-02_23-team666/ViewTask/ViewTask/Views/Tasks/ShoppingCart.cshtml]
+[D:/Тарас/SoftServe Practical C\#/Sprint 13. Views/MyBranch/ViewTask/ViewTask/Views/Tasks/ShoppingCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza3NcU2hvcHBpbmdDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/38096/source/repos/sprint13-om-02_23-team666/ViewTask/ViewTask/Views/Tasks/ShoppingList.cshtml]
+[D:/Тарас/SoftServe Practical C\#/Sprint 13. Views/MyBranch/ViewTask/ViewTask/Views/Tasks/ShoppingList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza3NcU2hvcHBpbmdMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/38096/source/repos/sprint13-om-02_23-team666/ViewTask/ViewTask/Views/Tasks/SprintTasks.cshtml]
+[D:/Тарас/SoftServe Practical C\#/Sprint 13. Views/MyBranch/ViewTask/ViewTask/Views/Tasks/SprintTasks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza3NcU3ByaW50VGFza3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/38096/source/repos/sprint13-om-02_23-team666/ViewTask/ViewTask/Views/Tasks/SuperMarkets.cshtml]
+[D:/Тарас/SoftServe Practical C\#/Sprint 13. Views/MyBranch/ViewTask/ViewTask/Views/Tasks/SuperMarkets.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza3NcU3VwZXJNYXJrZXRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/38096/source/repos/sprint13-om-02_23-team666/ViewTask/ViewTask/Views/_ViewImports.cshtml]
+[D:/Тарас/SoftServe Practical C\#/Sprint 13. Views/MyBranch/ViewTask/ViewTask/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/38096/source/repos/sprint13-om-02_23-team666/ViewTask/ViewTask/Views/_ViewStart.cshtml]
+[D:/Тарас/SoftServe Practical C\#/Sprint 13. Views/MyBranch/ViewTask/ViewTask/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/38096/source/repos/sprint13-om-02_23-team666/ViewTask/ViewTask/Views/Shared/_Layout.cshtml]
+[D:/Тарас/SoftServe Practical C\#/Sprint 13. Views/MyBranch/ViewTask/ViewTask/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-j6921cudtc
