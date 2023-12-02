@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ViewTask.Services;
 using ViewTask.Models;
-using System.Collections;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ViewTask.Controllers
 {
@@ -28,8 +28,14 @@ namespace ViewTask.Controllers
 		public TasksController(ITimeService timeService, IEnumerable<Product> products, IEnumerable<string> supermarkets)
 		{
 			_timeService = timeService;
-			_products = products.ToList();
-			_supermarkets = supermarkets.ToList();
+			if (products.Count() != 0)
+			{
+				_products = products.ToList();
+			}
+			if (supermarkets.Count() != 0)
+			{
+				_supermarkets = supermarkets.ToList();
+			}
 		}
 
 		public IActionResult Index()
@@ -55,7 +61,6 @@ namespace ViewTask.Controllers
 
             string date = _timeService.GetTime();
             string[] timeComponents = date.Split(':');
-
             int intHour = int.Parse(timeComponents[1]);
 
             if (intHour >= 5 && intHour < 12)
@@ -94,15 +99,15 @@ namespace ViewTask.Controllers
             return View(products);
         }
 
-        [HttpPost]
+		[HttpGet]
 		public IActionResult ShoppingCart()
 		{
 			return View(new ShoppingCartViewModel { SupermarketsList = _supermarkets, ShoppingList = ProductService.GetProducts(_products).Keys });
 		}
-		[HttpGet]
-		public string ShoppingCart(string fullname, string address)
+		[HttpPost]
+		public string ShoppingCart(string Fullname, string Address)
 		{
-			return string.Format($"Your poducts will be shipped at: {address}. Bon Appetite, {fullname}!");
+			return string.Format($"Your poducts will be shipped at: {Address}. Bon Appetite, {Fullname}!");
 		}
 
 
